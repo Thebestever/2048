@@ -307,11 +307,12 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    background: #000000;
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 0px; }
+    font-size: 0px;
+    color: rgba(255, 255, 255, 1); }
   .tile.tile-2 .tile-inner {
     background: url('tileimg/2.jpg');
     background-size: contain;
